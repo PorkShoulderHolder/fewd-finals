@@ -1,0 +1,310 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    cursor: default;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+section {
+background-color: rgb(206,83,77);
+left: 0;
+padding: 20px 0px;
+position: fixed;
+top: 0;
+width: 352px;
+height:900%;
+color: rgb(255,255,255);
+
+}
+
+h2 {
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+    margin-left: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-container {
+    width: 352px;
+    height: 242px;
+
+}
+
+.logo {
+    background: url(../images/logo-mm.png) no-repeat;
+    display: block;
+    width: 176px;
+    height: 125px;
+    margin: auto;
+}
+
+li {
+    margin: auto;
+    margin-left: 48px;
+    display:block;
+}
+
+.palette-container {
+    width: 172px;
+    height: 60px;
+    margin: auto;
+}
+
+
+.block-container {
+    width: 172px;
+    height: 344px;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.block {
+    width: 86px;
+    height: 86px;
+    float: left;
+}
+
+.red {
+    width: 86px;
+    height: 86px;
+    background-color: rgb(229, 60, 60);
+}
+
+.black {
+    width: 86px;
+    height: 86px;
+    background-color: black;
+}
+
+.btn-container {
+    height: 48px;
+    width:200px;
+    margin-top:540px;
+    margin-left: 370px;
+
+}
+
+#btn {
+    background: url(../images/toggle-grid-hashtag.png) no-repeat;
+    width: 46px;
+    height: 46px;
+    float:left;
+    margin-left: 40px;
+}
+
+#menu {
+    background: url(../images/menu.png) no-repeat;
+    width: 46px;
+    height: 46px;
+    float:left;
+}
+
+
+.square.black {
+  background-color: black;
+}
+
+.r-triangle.black {
+  border-left: 86px solid black;
+}
+
+
+.square {
+    background-color:rgb(229, 60, 60);
+
+}
+
+.r-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 86px solid white;
+    border-left: 86px solid rgb(229, 60, 60);
+
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background:white;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin:auto;
+    margin-top: 29px;
+}
+
+.eq-tri {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 43px 0px 43px 43px;
+    border-color:transparent transparent transparent white;
+
+
+}
+
+.half {
+    width: 86px;
+    height: 50%;
+    background-color: white;
+    margin-bottom: 50%;
+
+}
+
+.third-top {
+    width: 86px;
+    height: 28.66666666666667px;
+    background-color: white;
+
+}
+
+.third-middle {
+    width: 86px;
+    height: 28.66666666666667px;
+    background-color: transparent;
+    margin-top: 0px;
+
+
+}
+
+.third-bottom {
+    width: 86px;
+    height: 28.66666666666667px;
+    background-color: transparent;
+    margin-top: 0px;
+
+}
+
+.third1 {
+    width: 86px;
+    height: 28.66666666666667px;
+    background-color: white;
+
+}
+
+.third3 {
+    width: 86px;
+    height: 28.66666666666667px;
+    background-color: white;
+
+}
+
+
+.quarter1 {
+    width: 50%;
+    height: 50%;
+    float:right;
+    background-color: white;
+}
+
+.quarter2 {
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+
+}
+
+.quarter3 {
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    float:right;
+}
+
+.quarter4 {
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+}
+
+#red-palette {
+    width: 173px;
+    height: 30px;
+    background-color: rgb(229, 60, 60);
+    margin-top: 5px;
+}
+
+#black-palette {
+    width: 173px;
+    height: 30px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+#grid-container {
+    width: 530px;
+    height: 530px;
+    margin: auto;
+    margin-left: 440px;
+    margin-top: 80px;
+    position: fixed;
+}
+
+.grid {
+    width: 86px;
+    height: 86px;
+    float: left;
+    border-collapse: collapse;
+    margin-top: -1px;
+    margin-left: -1px; 
+}
+
+#grid-container>div {
+    border-collapse: collapse;
+}
+
+.grid:hover {
+
+    background-color: rgb(206,83,77);
+}
+
+.show {
+    border: 1px solid rgb(192,192,192);
+}
+
+.rotate {
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+#info {
+    width: 530px;
+    height: 530px;
+    margin: auto;
+    margin-left: 440px;
+    margin-top: 80px;
+    position: fixed;
+    background-color: rgb(206,83,77);
+    overflow: hidden;
+    display: none;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    margin:70px;
+
+}
+
+#instruction {
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: .3em;
+    color:white;
+}
+
+#list>div {
+    color:white;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
